@@ -8,14 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Spotify da Sara</title>
-    
-    <link rel="stylesheet" href="reset.css">
 
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+
+    <link rel="stylesheet" href="./src/assets/styles/avars.css">
+
+    <link rel="stylesheet" href="./src/assets/styles/menulateralfooter.css">
+
+    <link rel="stylesheet" href="./src/assets/styles/mainconfig.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
 
@@ -27,7 +31,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/icons/logo-spotify.png" alt="Logo" />
+                    <img src="./src/assets/icons/icons/logo-spotify.png" alt="Logo" />
                 </a>
             </div>
 
@@ -78,10 +82,41 @@
                     <span class="fa fa-globe"></span>
                     <span>Português do Brasil</span>
                 </button>
-
             </div>
         </div>
-    </div>    
+    </div> 
+    
+    <!-- tag main é importante para acessebilidade tbm-->
+    <main>
+
+        <div class="main-container">
+
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/icons/small-right.png" alt="Seta direita">
+                    </button>
+
+                </div>
+
+                <div class="header__search">
+                    <img src="./src/assets/icons/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+
+                <div class="header__login">
+                    <a class="subscribe" href="#">Inscreva-se</a>
+                    <button class="login">Entrar</button>
+
+                </div>
+            </nav>
+        </div>
+    </main>
+
 </body>
 
 
