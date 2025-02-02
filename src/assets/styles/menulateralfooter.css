@@ -7,6 +7,7 @@ body {
 * {
     text-decoration:none;
     text-transform: none;
+
 }
 
 .sidebar {
@@ -16,32 +17,38 @@ body {
     bottom:0;
     padding:12px;
     width:300px;
+
 }
 
 .sidebar__navigation {
-    background-color: #A04668;
+    background-color: var(--cardcolor);
     border-radius:8px;
     padding:16px 0 0 16px;
+
 }
 
 .logo {
-    background: #A04668;
+    background: var(--cardcolor);
     display:flex;
     border-radius:8px ;
     padding:16px 0 0 16px;
+
 }
 
 .sidebar__navigation .logo img {
     width:80px;
+
 }
 
 .sidebar nav ul {
     margin-top: 20px;
     padding:0 20px 10px 20px;
+
 }
 
 .sidebar ul li {
     padding: 10px 0;
+
 }
 
 .sidebar nav ul li a {
@@ -50,10 +57,11 @@ body {
     font-weight: 600;
     font-size: 14px;
     font-family: var(--font-dm-sans);
+
 }
 
 .library {
-    background-color:#A04668;
+    background-color: var(--cardcolor);
     border-radius:8px;
     display:flex;
     justify-content: space-between;
@@ -63,11 +71,13 @@ body {
     font-weight: 600;
     font-size:14px;
     margin-top: 10px;
+
 }
 
 .library .library__content {
     display:flex;
     justify-content: space-between;
+
 }
 
 .library .library__button {
@@ -83,6 +93,7 @@ body {
     text-decoration: none;
     text-transform: none;
     padding:20px 10px;
+
 }
 
 .library .library__button .fa {
@@ -91,10 +102,12 @@ body {
     color:#EFF2EF;
     margin-right: 10px;
     padding-right:8px;
+
 }
 
 .library .library__content .fa-plus {
     margin: 24px 10px;
+
 }
 
 .section-playlist {
@@ -102,33 +115,38 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     gap:20px;
-    background-color: #BC8DA0;
+    background-color: var(--claro);
     color:#EFF2EF;
     font-weight: 600;
     font-size: 14px;
     margin: 8px 0;
     padding:16px 20px;
     border-radius:10px;
+
 }
 
 .section-playlist .section-playlist__content {
     display:flex;
     flex-direction: column;
+
 }
 
 .section-playlist__content .text {
     padding-bottom:14px;
     color:#FFF;
     font-family: var(--font-dm-sans);
+
 }
 
 .section-playlist__content .title {
     font-weight: 700;
+
 }
 
 .section-playlist__content .subtitle {
     font-weight: 500;
     font-size: 12px;
+
 }
 
 .section-playlist__content .section-playlist__button {
@@ -146,10 +164,12 @@ body {
     margin-top: 12px;
     border:0;
     width: 113px;
+
 }
 
 .sidebar .cookies {
     margin:25px 20px;
+
 }
 
 .sidebar .cookies a {
@@ -158,10 +178,12 @@ body {
     font-weight: 500;
     font-size:10px;
     text-decoration: none;
+
 }
 
 .sidebar .cookies a:hover {
     text-decoration: underline;
+
 }
 
 .languages .languages__button {
@@ -175,9 +197,59 @@ body {
     margin:8px;
     padding:8px;
     border-radius:20px;
+
 }
 
 
+/*FOOTER*/
+.premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.premium .text {
+   flex-shrink: 0;
+
+
+}
+
+.premium .premium_title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: var(--font-dm-sans);
+
+}
+
+.premium .premium_subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+
+}
 
 
 

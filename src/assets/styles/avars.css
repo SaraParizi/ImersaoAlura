@@ -1,10 +1,14 @@
 :root {
     --font-dm-sans: "DM Sans", sans-serif;
-    --backgoundwallpaper: #712F48;
+
+    --backgoundwallpaper: #2c111b;
     
-    --cardcolor:  #A04668;
+    --cardcolor:  #77304b;
+
+    --claro: #BC8DA0;
     
     --bg-arrow-color:rgba(0,0,0,7)
     
+
 
 }
