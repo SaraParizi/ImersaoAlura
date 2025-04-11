@@ -1,28 +1,24 @@
- 🌸 #ImersãoAlura 🌸
+# 🌸 Imersão Alura 🌸
 
-## Descrição
-Este projeto faz parte da Imersão Alura, onde desenvolvemos uma aplicação web utilizando HTML e CSS. Durante a imersão, aprendi a criar layouts responsivos, estilizar páginas web e aplicar boas práticas de desenvolvimento front-end. 🚀🚀
+## 📝 Descrição
 
+Este projeto foi desenvolvido durante a **Imersão Alura**, com foco na criação de uma aplicação web utilizando **HTML** e **CSS**. Durante a imersão, aprendi a:
 
-## Estrutura do Projeto
-- **CSS**: 🎨 Para estilização e layout da aplicação.
-- **HTML**: 🏗️ Estrutura básica e conteúdo da aplicação.
+- Criar layouts responsivos
+- Estilizar páginas web
+- Aplicar boas práticas de desenvolvimento front-end 🚀
 
-## Instalação
-1. Clone este repositório: `git clone https://github.com/SaraParizi/ImersaoAlura.git`
-2. Navegue até o diretório do projeto: `cd ImersaoAlura`
+## 🗂️ Estrutura do Projeto
 
-## Uso
-📄 Abra o arquivo `index.html` em seu navegador para visualizar a aplicação.
+- **HTML** 🏗️: Responsável pela estrutura e conteúdo da aplicação.
+- **CSS** 🎨: Responsável pela estilização e layout.
 
-## Contribuição
-1. Faça um fork do projeto
-2. Crie uma nova branch: `git checkout -b minha-feature`
-3. Faça as alterações e commit: `git commit -m 'Minha nova feature'`
-4. Envie para o repositório remoto: `git push origin minha-feature`
+## 🚀 Como rodar o projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/SaraParizi/ImersaoAlura.git
 5. Abra um Pull Request
 
 ## Licença
 Este projeto está licenciado sob a licença MIT.
-
-🌸 Obrigado por conferir o meu projeto! 🌸
